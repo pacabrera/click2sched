@@ -29,8 +29,8 @@ const IdeaSchema = new Schema({
     default: false
   },
       mdate: {
-    type: String,
-    default: false
+    type: date,
+    required: true
   }
 });
 
