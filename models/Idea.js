@@ -29,7 +29,7 @@ const IdeaSchema = new Schema({
     default: false
   },
       mdate: {
-    type: date,
+    type: Date,
     required: true
   }
 });
