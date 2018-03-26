@@ -27,6 +27,10 @@ const IdeaSchema = new Schema({
     isWatched: {
     type: String,
     default: false
+  },
+      mdate: {
+    type: String,
+    default: false
   }
 });
 
