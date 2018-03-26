@@ -51,13 +51,13 @@ app.post('/post', (req, res) => {
   idea.title = req.body.title;
   idea.content = req.body.content;
   idea.genre = req.body.genre;
-
+ idea.mdate = req.body.mdate;
 
   idea.save(err => {
     if (err) {
       res.send(err);
     }
-    res.json({ message: "data stored" });
+    res.json({ message: "Successfully Added" });
   })
 })
 
